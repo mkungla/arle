@@ -4,7 +4,13 @@ Get maximum out of your Asus ROG when using linux
 
 > Work in progress
 
-- [x] Adjust keyboard backlights
+- [x] **Adjusting keyboard backlights**
+```bash
+# to enable / increasing current brightness level
+arle kb-backlight +
+# to decreasing / disable current keyboard backlight
+arle kb-backlight -
+```
 - [ ] Adjust screen backlight
 - [ ] Enable Function keys (fn)
 
