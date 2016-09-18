@@ -1,4 +1,4 @@
-version = "0.9.1"
+version = "0.9.2"
 description = "Asus ROG Linux extras"
 long_description = """
 Asus ROG Linux extras should make your Asus ROG properly functional
@@ -13,7 +13,7 @@ The latest development version is available in the
 """
 url = "https://github.com/mkungla/Asus-ROG-Linux-extras"
 author = "Marko Kungla"
-email = "marko.kungla@gmail.com"
+email = "marko@okramlabs.com"
 copyright = """Copyright 2016 Marko Kungla"""
 license = "MIT"
 help_summary = """Get everything out of your Asus ROG!"""

@@ -1,4 +1,6 @@
 import os
+import sys
+from setuptools import find_packages, setup
 
 # Working dir
 current_path = os.path.abspath(os.path.dirname(__file__))
@@ -6,10 +8,6 @@ current_path = os.path.abspath(os.path.dirname(__file__))
 # Load package info
 exec(compile(open(os.path.join(current_path, 'arle', 'package.py')).read(),
     'package.py', 'exec'), globals(), locals())
-
-from setuptools import find_packages, setup
-
-import sys
 
 # Check Python version
 # Not sure yet which py verions to support
