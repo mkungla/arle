@@ -1,4 +1,4 @@
-version = "0.9.2"
+version = "0.9.3"
 description = "Asus ROG Linux extras"
 long_description = """
 Asus ROG Linux extras should make your Asus ROG properly functional
@@ -20,6 +20,6 @@ help_summary = """Get everything out of your Asus ROG!"""
 
 # Dependencies
 dependencies = []
-dependencies.append('click')
+dependencies.append('click>=6.6')
 dependencies.append('wheel>=0.29.0')
-dependencies.append('dbus-python')
+dependencies.append('dbus-python>=1.2.4')

@@ -18,6 +18,7 @@ if py_version[0] == 3 and py_version < (3, 5):
 
 setup(
     name='arle',
+    py_modules=['arle'],
     version=version,
     description=description,
     long_description=long_description,

@@ -1,11 +1,8 @@
 import click
 
 from arle.package import help_summary
-from arle.helpers import output
-from arle.lib import keyboard
-
-
-
+from arle import output
+from arle.utils import keyboard
 
 # Asus ROG Linux Extras CLI
 @click.group()
@@ -34,3 +31,7 @@ def kb_backlight(value):
         }.get(val, '+')
     # Call method based on option
     opt(value)()
+
+
+if __name__ == '__main__':
+    entry_point()

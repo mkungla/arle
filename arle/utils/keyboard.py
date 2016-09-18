@@ -1,6 +1,6 @@
 import dbus
 
-from arle.helpers import output
+from arle import output
 
 class BackLight(object):
     """Adjust keyboard backlights

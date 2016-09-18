@@ -1,6 +1,6 @@
 import os
 
-from arle.helpers import output
+from arle import output
 
 class BackLight(object):
     """Adjust screen backlight
